@@ -1,6 +1,6 @@
 import axios from "axios"
 // const URL = "http://localhost:8080"
-const URL = "https://joesreactauthdemoserver.herokuapp.com/"
+const URL = "https://joesreactauthdemoserver.herokuapp.com"
 const API = {
     login:function(user){
         return axios.post(`${URL}/auth/login`,user,{withCredentials:true})
